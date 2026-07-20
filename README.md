@@ -55,22 +55,3 @@ fluffos-share/
 自定义 LPC 脚本服务、后台 GM 管理系统
 plaintext
 
----
-## 极简短版（适合小型仓库，简洁清爽）
-```markdown
-# FluffOS Engine Source Code Sharing
-FluffOS LPC virtual engine full source code repository, based on BSD 3-Clause License.
-
-### Main Features
-- C++ high-performance driver with global try-catch exception protection
-- Native MySQL, WebSocket & OpenSSL support
-- Complete turn-based game LPC logic library included
-- Cross-platform compile by CMake, support Linux server deployment
-
-### Compile Command
-```bash
-mkdir build && cd build
-cmake .. -DPACKAGE_DB=ON -DPACKAGE_CRYPTO=ON
-make -j$(nproc)
-License: BSD 3-Clause
-plaintext
