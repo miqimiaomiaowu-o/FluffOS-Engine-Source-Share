@@ -74,9 +74,3 @@ cmake .. -DPACKAGE_DB=ON -DPACKAGE_CRYPTO=ON
 make -j$(nproc)
 License: BSD 3-Clause
 plaintext
-
----
-### 使用说明
-1. 点击页面绿色按钮【添加 README 文件】，将上面完整内容粘贴进去；
-2. 仓库标题填写：`Sharing the Source Code of the FluffOS Engine`；
-3. 许可证选择：**BSD 3条款"新"或"修订"许可证**，和代码协议匹配。
