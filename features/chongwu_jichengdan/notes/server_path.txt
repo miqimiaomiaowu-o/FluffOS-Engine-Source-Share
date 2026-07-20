@@ -1,5 +1,0 @@
-gs里面带有ini跑线的这个目录
-新建clone/item/special
-放进去即可
-
-etc里面special_item增加名字即可
