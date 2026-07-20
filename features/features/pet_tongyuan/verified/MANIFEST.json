@@ -1,0 +1,18 @@
+{
+  "name": "pet_tongyuan_one_shot_final",
+  "created": "2026-07-12 12:52",
+  "object_path": "replace/lib_gs32/gs/clone/item/charge/pet_growth_random_yu.o",
+  "list_path": "replace/etc/charge_item.list.add.gbk.txt",
+  "object_sha256": "b5c8b4a1158e2d308e41dce445ed9d085dd31bfe76c4971f6a2f8a497ca68bbc",
+  "object_size": 100867,
+  "head16": "01000100000000000000000000000000",
+  "list_sha256": "1961fef1a6ef283cb6d1a05f0ca3f766dd3ce91213e47cef96559f553775f92d",
+  "rules": {
+    "entry": "right click item then select pet in menu",
+    "once": "one item rolls once only",
+    "count": "1-2 lines 80%, 3-4 lines 15%, 5 lines 5%",
+    "delta": "-5~5 60%, 0~5 30%, 5~10 5%, 10~15 3%, 15~20 1%, fixed20 1%",
+    "confirm": "pay yuanbao, save attributes, consume item, show success and result lines",
+    "cancel": "do not save attributes, consume item, show disappeared dialog"
+  }
+}

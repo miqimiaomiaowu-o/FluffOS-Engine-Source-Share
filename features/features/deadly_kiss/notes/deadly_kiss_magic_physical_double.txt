@@ -1,0 +1,2 @@
+删除gs/daemons/status里面的deadly_kiss
+服务端新增一个gs/daemons/status把.c放进去即可
